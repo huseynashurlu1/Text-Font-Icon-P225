@@ -1,0 +1,161 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    body{
+        background-color: #F2F6FC;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    .clear{
+        clear: both;
+    }
+
+header{
+        padding: 30px 6rem;
+        overflow: auto;
+        background-color: #fff;
+}
+
+header .left{
+    float: left;
+}
+
+header .left a{
+    color: #212832;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header .right{
+     float: right;
+}
+
+header .right a{
+    color: rgba(0, 0, 0, 0.514);
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+header .right a i{
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.buy-btn{
+    background-color: #00ba94;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 8px 18px;
+    margin-left: 5rem !important;
+}
+
+#Slider{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500);
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 0;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+#Slider h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+#Slider p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+#Slider form{
+    width: 40%;
+    margin: 30px auto 0;
+}
+
+#Slider input{
+    width: 75%;
+    padding: 12px 0 12px 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+#Slider button{
+    padding: 12px 15px;
+    background-color: #00ba94;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #00ba94;
+}
+
+#Area-2{
+    padding: 5rem 6rem;
+}
+
+#Area-2 .area-text{
+    text-align: center;
+}
+
+.area-all .box{
+    width: 20%;
+    margin: 20px 25px;
+    float: left;
+    transition: .4s;
+}
+
+.area-all .box:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   transform: translateY(-10px);
+}
+
+.area-all .box .bottom{
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    padding: 9px 0;
+    background-color: #fff;
+}
+
+.area-all .box img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    vertical-align: bottom;
+}
+
+#News{
+    padding: 2rem 6rem;
+    overflow: auto;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+#News .left,.right{
+    width: 48%;
+}
+
+#News .left{
+    float: left;
+}
+
+#News .right{
+    float: right;
+}
+

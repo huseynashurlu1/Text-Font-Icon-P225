@@ -1,0 +1,56 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.social{
+    text-align: center;
+}
+
+h1{
+    font-weight: 100;
+    font-family: P225;
+}
+
+@font-face {
+    font-family: P225;
+    src: url(../fonts/AlwaysRadio.ttf);
+}
+
+.social i{
+    font-size: 20px;
+    background-color: #1d809f;
+    border-radius: 100%;
+    color: #fff;
+    padding: 15px;
+    margin: 0 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+i:hover{
+    background-color: #044558;
+    transform: rotate(360deg);
+}
+
+#text{
+    border: 2px solid red;
+    width: 40%;
+    height: 200px;
+    overflow-y: scroll;
+    word-spacing: 20px;
+    text-align: justify;
+    text-align-last: center;
+    margin: 3rem auto;
+    text-indent: 100px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+
